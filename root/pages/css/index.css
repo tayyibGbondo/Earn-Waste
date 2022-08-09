@@ -1,0 +1,176 @@
+body{
+  background-color: #EBEBEB;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+.nav-container{
+  background-color: #FFFFFF;
+  font-size: 25px;
+}
+
+nav{
+  font-size: 20px;
+  font-weight: 500;
+  color: black;
+  box-shadow: 0 1px 3px 0px rgba(0, 0, 0, 0.533);
+}
+
+.login{
+  border: 2px solid;
+}
+
+.nav-item a{
+  font-size: 20px;
+  font-weight: 600;
+  color: black;
+  margin-left: 5px;
+  padding-left: 2rem;
+}
+
+
+.logo{
+  width: 100px;
+}
+
+.brand-name{
+  text-align: center;
+}
+
+/* the frist section of the page */
+
+.flex-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-con{
+  background-color: white;
+  width: 100%;
+}
+
+.flex-container div{
+  margin: 30px;
+}
+
+.img1{
+  min-width: 500px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.container2{
+  text-align: center;
+}
+
+/* the frist section of the page */
+
+.flex-con2{
+  display: flex;
+}
+
+.flex-container1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 1000px;
+  margin: 6rem auto;
+}
+
+.flex-container1 div{
+  margin: 6rem 4rem;
+  text-align: center;
+}
+
+.container1{
+  background-color: white;
+}
+
+/* the cards sections below */
+
+.card img{
+ width: 100%;
+}
+.card{
+  width: 100%;
+}
+
+.product{
+  text-align: center;
+}
+
+/* advert section  */
+
+.advertisment-container{
+  background-image: url(/root/pages/images/download.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  color: white;
+  margin-top: 3rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.centerText{
+  text-align: center;
+}
+
+.advert-container{
+  display: flex;
+  flex-direction: row;
+}
+
+.advert-container div{
+  margin: 1rem;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.playstore{
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.playstore-content{
+  display: flex;
+  align-items: center;
+  border: 2px solid white;
+}
+
+/* the app store style */
+
+.appstore{
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.appstore-content{
+  display: flex;
+  align-items: center;
+  border: 2px solid white;
+}
+
+/* the download button section */
+
+.download-btns a button{
+  border-width: 2px;
+  font-weight: 700;
+}
+
+/* the footer section */
+
+.footer-container{
+  margin-top: 1rem;
+  height: 200px;
+  background-color: black;
+  width: 100%;
+}
