@@ -1,0 +1,68 @@
+header{
+  margin:10rem auto 2rem auto;
+  max-width: 800px;
+}
+
+header h2{
+  text-align: center;
+  text-decoration: underline;
+}
+main{
+  padding: 1rem;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.login-container h1{
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.login-container{
+  background-color: whitesmoke;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+.login-container input{
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 1px;
+  outline: unset;
+  border-top: unset;
+  border-left: unset;
+  border-right: unset;
+  border-color: rgba(128, 128, 128, 0.709);
+  background-color: unset;
+  font-size: 15px;
+  margin: 2rem 0 10px 0;
+}
+
+.forget_password{
+  display: inline-block;
+  margin: 20px 0;
+  color: rgba(34, 100, 244, 0.994);
+  opacity: 0.7;
+}
+
+.login{
+  background-color: rgba(34, 100, 244, 0.863);
+  width: 100%;
+  padding: 1rem;
+  border-radius: 2rem;
+  font-weight: 900;
+  appearance: none;
+  border: unset;
+  cursor: pointer;
+  color: white;
+}
+
+.create_account{
+  display: inline-block;
+  margin: 20px 0;
+  position: relative;
+  left: 30%;
+  opacity: 0.7;
+}
