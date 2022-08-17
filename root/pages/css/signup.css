@@ -1,0 +1,12 @@
+.signup-container{
+ max-width: 800px;
+ margin: 5rem auto;
+}
+
+.content-container{
+  display: flex;
+}
+
+.section1 img{
+  width: 100%;
+}
