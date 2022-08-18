@@ -1,0 +1,19 @@
+@media (max-width: 991px){
+  .content-container{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+  .signup-container{
+    max-width: 100%;
+    margin: 2rem 1rem;
+    background-color: unset;
+    border-radius: 10px;
+   }
+
+   .section1 img{
+   display: none;
+  }
+}
