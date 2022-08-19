@@ -4,155 +4,219 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./root/pages/css/peoduct_resonsive.css">
     <link rel="stylesheet" href="/root/pages/css/product.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <title>Cards</title>
 </head>
 <body>
+    <!-- the header start -->
     <header>
-        <h1>Apple Store</h1>
-        <p>Welcome to my apple store</p>
-    </header>
+      <!-- This the navigation section below that contin all the nav links and logo -->
+  <!-- also used Bootstart to make the navigation responsive and make it collaps -->
 
+  <div class="nav-container"> <!--this the main nav container that wrape all the elements in the navigation-->
+    <nav class="navbar navbar-expand-lg bg-gray navbar-black">
+      <div class="container">
+       <img src="/Identity/logo/real.png" alt="" class="navbar-brand logo"> <!--the logo here-->
+       <h1 class="navbar-brand brand-name">EARN WASTE</h1> <!--the site name-->
+     
+       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu"> <!--nav menu but this display only on smaller screen-->
+     <span class="navbar-toggler-icon"></span> <!--the menu toggle icons from bootdtrsp-->
+     </button>
+     
+       <div class="collapse navbar-collapse" id="navmenu"> <!--the collapse container that wripe the unlisted items, listed items and the anchor tag.-->
+         <ul class="navbar-nav ms-auto"> <!--the navbar navigation contaner-->
+            <li class="nav-item">
+               <a href="#" class="nav-link">Shedules</a>   <!--the navbar links-->
+            </li>
+            <li class="nav-item">
+             <a href="#" class="nav-link">For Home</a>  <!--the navbar links-->
+          </li>
+          <li class="nav-item">
+           <a href="#" class="nav-link">About</a>  <!--the navbar links-->
+        </li>
+        <li class="nav-item">
+         <a href="product.html" class="nav-link">Product</a>  <!--the navbar links-->
+      </li>
+      <li class="nav-item">
+       <a href="#" class="nav-link">Support</a>  <!--the navbar links-->
+     </li>
+     <li class="nav-item">
+      <a href="login.html" class="nav-link" target="_blank">
+        <button type="button" class="btn btn-outline-secondary login">LOG IN</button>
+      </a>  <!--the navbar links-->
+    </li>
+         </ul>
+      </div>
+      </div>
+      </nav>
+  </div>
+    </header>
+    <!-- the header end -->
+
+    <!-- the starting of the main section -->
     <main>
 
-        <fieldset>
-           <legend><h1>For Home</h1></legend>
-       
-        <div class="cards-container1">
-                    
-                    <div class="cards">
-                        <img src="/img/bb.jpg" alt="">
-                        <h2>ipad</h2>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores tempore nisi, minima in dolores odio iusto
-                            quidem omnis, quam accusantium eveniet est doloremque pariatur! Iure.</p>
-                        <a href="#">Order Now</a>
-                    </div>
-                    
-                    <div class="cards">
-                        <img src="/img/bb.jpg" alt="">
-                        <h2>ipad</h2>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores tempore nisi, minima in dolores odio iusto
-                            quidem omnis, quam accusantium eveniet est doloremque pariatur! Iure.</p>
-                        <a href="#">Order Now</a>
-                    </div>
-                    
-                    <div class="cards">
-                        <img src="/img/bb.jpg" alt="">
-                        <h2>ipad</h2>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores tempore nisi, minima in dolores odio iusto
-                            quidem omnis, quam accusantium eveniet est doloremque pariatur! Iure.</p>
-                        <a href="#">Order Now</a>
-                    </div>
-                    
-                    <div class="cards">
-                        <img src="/img/bb.jpg" alt="">
-                        <h2>ipad</h2>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores tempore nisi, minima in dolores odio iusto
-                            quidem omnis, quam accusantium eveniet est doloremque pariatur! Iure.</p>
-                        <a href="#">Order Now</a>
-                    </div>
-        </div>
-    </fieldset>
+        <!-- starting section for home product -->
+        <section class="for_home">
+          <div class="title_and_discreption">
+            <h1>Waste Services For Home</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, repellendus accusantium cumque dolorum minus magni pariatur repellat voluptas molestiae odit.</p>
+          </div>
 
-
-
-
-        <fieldset>
-            <legend>
-                <h1>For Community</h1>
-            </legend>
-        
-            <div class="cards-container1">
-        
-                <div class="cards">
-                    <img src="/img/bb.jpg" alt="">
-                    <h2>ipad</h2>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores tempore nisi, minima in dolores odio
-                        iusto
-                        quidem omnis, quam accusantium eveniet est doloremque pariatur! Iure.</p>
-                    <a href="#">Order Now</a>
+            <div class="product-container">
+                <div class="product">
+                    <img src="./root/pages/images/register.jpg" alt="">
+                    <h3>Residential waste bin</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore fuga necessitatibus sed animi ad aliquam nihil. Necessitatibus alias tempore repellat?</p>
+                    <a href="#">Order Waste Bin Now</a>
                 </div>
-        
-                <div class="cards">
-                    <img src="/img/bb.jpg" alt="">
-                    <h2>ipad</h2>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores tempore nisi, minima in dolores odio
-                        iusto
-                        quidem omnis, quam accusantium eveniet est doloremque pariatur! Iure.</p>
-                    <a href="#">Order Now</a>
+                <div class="product">
+                    <img src="./root/pages/images/register.jpg" alt="">
+                    <h3>Residential waste bin</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore fuga necessitatibus sed animi ad aliquam nihil. Necessitatibus alias tempore repellat?</p>
+                        <a href="#">Order Waste Bin Now</a>
                 </div>
-        
-                <div class="cards">
-                    <img src="/img/bb.jpg" alt="">
-                    <h2>ipad</h2>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores tempore nisi, minima in dolores odio
-                        iusto
-                        quidem omnis, quam accusantium eveniet est doloremque pariatur! Iure.</p>
-                    <a href="#">Order Now</a>
-                </div>
-        
-                <div class="cards">
-                    <img src="/img/bb.jpg" alt="">
-                    <h2>ipad</h2>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores tempore nisi, minima in dolores odio
-                        iusto
-                        quidem omnis, quam accusantium eveniet est doloremque pariatur! Iure.</p>
-                    <a href="#">Order Now</a>
+                <div class="product">
+                    <img src="./root/pages/images/register.jpg" alt="">
+                    <h3>Residential waste bin</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore fuga necessitatibus sed animi ad aliquam nihil. Necessitatibus alias tempore repellat?</p>
+                        <a href="#">Order Waste Bin Now</a>
                 </div>
             </div>
-        </fieldset>
-
-
-            <fieldset>
-                <legend>
-                    <h1>For Business</h1>
-                </legend>
-            
-                <div class="cards-container1">
-            
-                    <div class="cards">
-                        <img src="/img/bb.jpg" alt="">
-                        <h2>ipad</h2>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores tempore nisi, minima in dolores odio
-                            iusto
-                            quidem omnis, quam accusantium eveniet est doloremque pariatur! Iure.</p>
-                        <a href="#">Order Now</a>
-                    </div>
-            
-                    <div class="cards">
-                        <img src="/img/bb.jpg" alt="">
-                        <h2>ipad</h2>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores tempore nisi, minima in dolores odio
-                            iusto
-                            quidem omnis, quam accusantium eveniet est doloremque pariatur! Iure.</p>
-                        <a href="#">Order Now</a>
-                    </div>
-            
-                    <div class="cards">
-                        <img src="/img/bb.jpg" alt="">
-                        <h2>ipad</h2>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores tempore nisi, minima in dolores odio
-                            iusto
-                            quidem omnis, quam accusantium eveniet est doloremque pariatur! Iure.</p>
-                        <a href="#">Order Now</a>
-                    </div>
-            
-                    <div class="cards">
-                        <img src="/img/bb.jpg" alt="">
-                        <h2>ipad</h2>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores tempore nisi, minima in dolores odio
-                            iusto
-                            quidem omnis, quam accusantium eveniet est doloremque pariatur! Iure.</p>
-                        <a href="#">Order Now</a>
-                    </div>
-                </div>
-            </fieldset>
+        </section>
+        <!-- ending section for home product section -->
+        <br>
+        <br>
+           <!-- starting section for business product -->
+           <section class="for_home">
+            <div class="title_and_discreption">
+              <h1>For Business</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, repellendus accusantium cumque dolorum minus magni pariatur repellat voluptas molestiae odit.</p>
+            </div>
+  
+              <div class="product-container">
+                  <div class="product">
+                      <img src="./root/pages/images/register.jpg" alt="">
+                      <h3>Residential waste bin</h1>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore fuga necessitatibus sed animi ad aliquam nihil. Necessitatibus alias tempore repellat?</p>
+                      <a href="#">Order Waste Bin Now</a>
+                  </div>
+                  <div class="product">
+                      <img src="./root/pages/images/register.jpg" alt="">
+                      <h3>Residential waste bin</h1>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore fuga necessitatibus sed animi ad aliquam nihil. Necessitatibus alias tempore repellat?</p>
+                          <a href="#">Order Waste Bin Now</a>
+                  </div>
+                  <div class="product">
+                      <img src="./root/pages/images/register.jpg" alt="">
+                      <h3>Residential waste bin</h1>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore fuga necessitatibus sed animi ad aliquam nihil. Necessitatibus alias tempore repellat?</p>
+                          <a href="#">Order Waste Bin Now</a>
+                  </div>
+              </div>
+          </section>
+          <!-- ending section for business product section -->
+          <br>
+          <br>
+             <!-- starting section for home product -->
+        <section class="for_home">
+            <div class="title_and_discreption">
+              <h1>Solutions for Communities</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, repellendus accusantium cumque dolorum minus magni pariatur repellat voluptas molestiae odit.</p>
+            </div>
+  
+              <div class="product-container">
+                  <div class="product">
+                      <img src="./root/pages/images/register.jpg" alt="">
+                      <h3>Residential waste bin</h1>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore fuga necessitatibus sed animi ad aliquam nihil. Necessitatibus alias tempore repellat?</p>
+                      <a href="#">Order Waste Bin Now</a>
+                  </div>
+                  <div class="product">
+                      <img src="./root/pages/images/register.jpg" alt="">
+                      <h3>Residential waste bin</h1>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore fuga necessitatibus sed animi ad aliquam nihil. Necessitatibus alias tempore repellat?</p>
+                          <a href="#">Order Waste Bin Now</a>
+                  </div>
+                  <div class="product">
+                      <img src="./root/pages/images/register.jpg" alt="">
+                      <h3>Residential waste bin</h1>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore fuga necessitatibus sed animi ad aliquam nihil. Necessitatibus alias tempore repellat?</p>
+                          <a href="#">Order Waste Bin Now</a>
+                  </div>
+              </div>
+          </section>
+          <!-- ending section for home product section -->
     </main>
 
     <footer>
-        <h1>
-            this is the footer
-        </h1>
+       <div class="section-container">
+        <section class="support">
+            <h4>
+                Customer Support
+            </h4>
+
+            <ul>
+                <li>Manage My account</li>
+                <li>Log in to Earn Waste app</li>
+                <li>Missed Pickup</li>
+                <li>Earn Waste Securirty</li>
+            </ul>
+        </section>
+
+        <section class="quick_info">
+            <h4>
+                Quick Info
+            </h4>
+
+            <ul>
+                <li>Recyling right</li>
+                <li>Drops Off Location</li>
+                <li>How To Use The Coin?</li>
+            </ul>
+        </section>
+
+        <section class="quick_info">
+            <h4>
+                Become a Donor
+            </h4>
+
+            <ul>
+               <li>Donate Here</li>
+            </ul>
+        </section>
+
+        <div class="contact">
+            <h3>
+                <a href="#">
+                    <i class="bi-whatsapp"></i>
+                </a>
+            </h3>
+            <h3>
+                <a href="#">
+                    <i class="bi-facebook"></i>
+                </a>
+            </h3>
+            <h3>
+                <a href="#">
+                    <i class="bi-twitter"></i>
+                </a>
+            </h3>
+            <h3>
+                <a href="#">
+                    <i class="bi-youtube"></i>
+                </a>
+            </h3>
+            <h3>
+                <a href="#">
+                    <i class="bi-linkedin"></i>
+                </a>
+            </h3>
+         </div>
+       </div>
     </footer>
 </body>
 </html>

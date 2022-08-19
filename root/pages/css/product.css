@@ -3,71 +3,130 @@
   padding: 0;
 }
 
-header{
-  text-align: center;
-  background-color: rgb(203, 190, 190);
-  padding: 1rem;
+
+/* the nav sec */
+
+.nav-container{
+  background-color: #FFFFFF;
+  font-size: 25px;
 }
 
-.cards img{
+nav{
+  font-size: 20px;
+  font-weight: 500;
+  color: black;
+  box-shadow: 0 1px 3px 0px rgba(0, 0, 0, 0.533);
+}
+
+.login{
+  border: 2px solid;
+}
+
+.nav-item a{
+  font-size: 20px;
+  font-weight: 600;
+  color: black;
+  margin-left: 5px;
+  padding-left: 2rem;
+}
+
+
+.logo{
+  width: 100px;
+}
+
+.brand-name{
+  text-align: center;
+}
+
+/* the product section styles are all below this comment */
+/* the starting of the peoduct styling */
+
+.for_home{
+  background-color: whitesmoke;
+}
+
+.title_and_discreption{
+  width: 100%;
+  text-align: center;
+  margin: 0  auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.product-container{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.product-container .product {
+  margin: 50px 20px;
+  background-color: white;
+  padding: 30px;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 8px;
+}
+
+.product-container .product h3{
+  font-size: 20px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.product-container .product p{
+  text-align: start;
+}
+
+
+.product img{
   width: 100px;
   height: 100px;
-  border-radius: 100px;
-  border: 4px solid black;
-  margin-top: -20%;
+  border-radius: 100%;
+  position: relative;
+  top: -100px;
+  border: 2px solid black;
 }
 
-.cards{
-  background-color:rgb(234, 167, 155);
-  padding: 20px;
-  width: 300px;
-  border-radius: 10px;
-  border: 4px solid  black;
-  text-align: center;
-  margin: 50px 20px 20px 20px;
-  margin: 5rem auto 5px auto;
-}
+/* end of the product styling */
 
-.cards h2{
-  font-size: 35px;
-  text-align: start;
-}
-
-.cards p{
-  text-align: start;
-  font-size: 20px;
-  font-family: sans-serif;
-}
-
-.cards a{
-  text-decoration: unset;
-  font-weight: 900;
-  background-color: white;
-  padding: 15px;
-  border-radius: 5px;
-  color: black;
-}
-
-.cards-container1{
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-  max-width: 1500px;
-  margin: 0 auto 1rem auto;
-}
-
-legend{
-  text-align: center;
-}
-
-fieldset{
-  max-width: 1500px;
-  margin: 2rem auto 5rem auto;
-  border-radius: 10px;
-}
+/* the footer styling section */
 
 footer{
   background-color: rgb(0, 0, 0);
   color: WHITE;
-  padding: 8rem;
+  padding: 1rem;
+}
+
+.section-container{
+  width: 100%;
+  display: flex;
+  max-width: 1100px;
+  justify-content: space-between;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+footer section{
+  margin: 20px;
+}
+
+.contact{
+  display: flex;
+  align-items: center;
+}
+
+.contact h3{
+  margin-left: 30px;
+}
+
+.contact h3 a{
+  color: white;
+}
+
+.contact h1 a:hover{
+  color: rgba(255, 255, 255, 0.483);
 }
