@@ -1,6 +1,7 @@
 *{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 
@@ -129,4 +130,72 @@ footer section{
 
 .contact h1 a:hover{
   color: rgba(255, 255, 255, 0.483);
+}
+
+/* the order page section */
+
+.ordre-container{
+  background-color: rgb(126, 125, 125);
+  border-radius: 10px;
+  max-width: 800px;
+  margin: 0 auto;
+  height: 100%;
+  top: 2px;
+  left: 0;
+  right: 0;
+  /* display: none; */
+  position: fixed;
+  z-index: 2;
+}
+
+.ordre-container p{
+  text-align: center;
+  font-size: 20px;
+  padding: 10px 0;
+}
+
+.ordre-container h2{
+  margin-top: 20px;
+  font-size: 30px;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.ordre-container h5{
+ width: 100%;
+}
+
+.form-order{
+  margin: 20px 50px;
+  text-align: center;
+}
+
+
+.form-order input{
+  width: 50%;
+  border-radius: 3px;
+  outline: none;
+  padding: 8px;
+  box-sizing: border-box;
+  margin: 1rem 0;
+  border-radius: 5px;
+}
+
+.quantity input{
+  width: 50px;
+  padding: 4px;
+}
+
+.quantity{
+  margin-top: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.send{
+  width: 100px;
+  padding: 8px;
+  font-weight: 900;
+  margin-bottom: 15px;;
 }
