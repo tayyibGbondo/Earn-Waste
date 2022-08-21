@@ -68,8 +68,9 @@ nav{
   background-color: white;
   padding: 30px;
   text-align: center;
-  border: 2px solid black;
+  border: 1px solid black;
   border-radius: 8px;
+  box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.3);
 }
 
 .product-container .product h3{
@@ -88,8 +89,16 @@ nav{
   height: 100px;
   border-radius: 100%;
   position: relative;
-  top: -100px;
+  top: -80px;
   border: 2px solid black;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.product a{
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: 600;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* end of the product styling */
@@ -135,67 +144,66 @@ footer section{
 /* the order page section */
 
 .ordre-container{
-  background-color: rgb(126, 125, 125);
+  background-color: rgb(242, 238, 238);
   border-radius: 10px;
-  max-width: 800px;
+  max-width: 1200px;
   margin: 0 auto;
   height: 100%;
-  top: 2px;
+  top: 0;
   left: 0;
   right: 0;
-  /* display: none; */
   position: fixed;
   z-index: 2;
+  display: flex;
+  justify-content: space-between;
+  display: none;
+  
 }
 
-.ordre-container p{
+.product-image{
+  background-color: burlywood;
+}
+
+.product-image img{
+  width: 100%;
+}
+
+.ordering-form h2{
   text-align: center;
+  padding:5px 0 10px 0;
+}
+
+.ordering-form{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.ordering-form input{
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  border: none;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.514);
+  background-color: rgba(255, 255, 255, 0.273);
   font-size: 20px;
-  padding: 10px 0;
+  outline: none;
 }
 
-.ordre-container h2{
-  margin-top: 20px;
-  font-size: 30px;
-  text-align: center;
+.ordering-form label{
+  color: black;
+  font-weight: 500;
+}
+
+.ordering-form input::placeholder{
+  color: rgba(0, 0, 0, 0.629);
   font-family: sans-serif;
 }
 
-.ordre-container h5{
- width: 100%;
-}
-
-.form-order{
-  margin: 20px 50px;
-  text-align: center;
-}
-
-
-.form-order input{
-  width: 50%;
-  border-radius: 3px;
-  outline: none;
-  padding: 8px;
-  box-sizing: border-box;
-  margin: 1rem 0;
-  border-radius: 5px;
-}
-
-.quantity input{
-  width: 50px;
-  padding: 4px;
-}
-
-.quantity{
-  margin-top: 1px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .send{
-  width: 100px;
-  padding: 8px;
-  font-weight: 900;
-  margin-bottom: 15px;;
+  background-color: lightblue;
+  padding: 10px;
+  font-weight: 800;
+  border-radius: 6px;
+  border: none;
 }
