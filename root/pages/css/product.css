@@ -23,6 +23,119 @@ nav{
   border: 2px solid;
 }
 
+/* the buying overlay section stat */
+
+.ordre-container{
+  background-color: rgb(126, 125, 125);
+  background-color: rgb(242, 238, 238);
+  border-radius: 10px;
+  max-width: 800px;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 100%;
+  top: 2px;
+  top: 0;
+  left: 0;
+  right: 0;
+  /* display: none; */
+  position: fixed;
+  z-index: 2;
+  display: flex;
+  justify-content: space-between;
+  display: none;
+
+}
+
+.ordre-container p{
+  text-align: center;
+  font-size: 20px;
+  padding: 10px 0;
+}
+
+.ordre-container h2{
+  margin-top: 20px;
+  font-size: 30px;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.product-image{
+  background-color: burlywood;
+}
+
+.ordre-container h5{
+ width: 100%;
+}
+
+.product-image img{
+  width: 100%;
+}
+
+.form-order{
+  margin: 20px 50px;
+}
+
+.ordering-form h2{
+  text-align: center;
+  padding:5px 0 10px 0;
+}
+
+.ordering-form{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.form-order input{
+  width: 50%;
+  border-radius: 3px;
+}
+
+.ordering-form input{
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  border: none;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.514);
+  background-color: rgba(255, 255, 255, 0.273);
+  font-size: 20px;
+  outline: none;
+  padding: 8px;
+  box-sizing: border-box;
+  margin: 1rem 0;
+  border-radius: 5px;
+}
+
+.quantity input{
+  width: 50px;
+  padding: 4px;
+}
+
+.ordering-form label{
+  color: black;
+  font-weight: 500;
+}
+
+.quantity{
+  margin-top: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ordering-form input::placeholder{
+  color: rgba(0, 0, 0, 0.629);
+  font-family: sans-serif;
+}
+
+.send{
+  width: 100px;
+  padding: 8px;
+  font-weight: 900;
+  margin-bottom: 15px;;
+}
+
+/* the end */
 .nav-item a{
   font-size: 20px;
   font-weight: 600;
@@ -103,6 +216,8 @@ nav{
 
 /* end of the product styling */
 
+/* the footer section below */
+
 /* the footer styling section */
 
 footer{
@@ -141,69 +256,25 @@ footer section{
   color: rgba(255, 255, 255, 0.483);
 }
 
-/* the order page section */
-
-.ordre-container{
-  background-color: rgb(242, 238, 238);
-  border-radius: 10px;
-  max-width: 1200px;
-  margin: 0 auto;
-  height: 100%;
-  top: 0;
-  left: 0;
-  right: 0;
-  position: fixed;
-  z-index: 2;
-  display: flex;
-  justify-content: space-between;
-  display: none;
-  
+footer a{
+  text-decoration: none;
+  color: whitesmoke;
 }
 
-.product-image{
-  background-color: burlywood;
+footer ul li{
+  list-style: none;
+  transition: 0.5s;
 }
 
-.product-image img{
-  width: 100%;
+footer ul li:hover, footer ul li:focus{
+  color: gray;
 }
 
-.ordering-form h2{
-  text-align: center;
-  padding:5px 0 10px 0;
+.contact h3 a{
+  color: white;
+  opacity: 0.9;
 }
 
-.ordering-form{
-  display: flex;
-  flex-direction: column;
-  padding: 20px;
-}
-
-.ordering-form input{
-  padding: 10px;
-  margin-bottom: 10px;
-  border-radius: 6px;
-  border: none;
-  border-bottom: 2px solid rgba(0, 0, 0, 0.514);
-  background-color: rgba(255, 255, 255, 0.273);
-  font-size: 20px;
-  outline: none;
-}
-
-.ordering-form label{
-  color: black;
-  font-weight: 500;
-}
-
-.ordering-form input::placeholder{
-  color: rgba(0, 0, 0, 0.629);
-  font-family: sans-serif;
-}
-
-.send{
-  background-color: lightblue;
-  padding: 10px;
-  font-weight: 800;
-  border-radius: 6px;
-  border: none;
+.contact h3 a:hover{
+  opacity: 0.7;
 }
