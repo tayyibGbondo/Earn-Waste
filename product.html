@@ -4,12 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./root/pages/css/peoduct_resonsive.css">
     <link rel="stylesheet" href="/root/pages/css/product.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-
-  <link rel="stylesheet" href="./root/pages/css/peoduct_resonsive.css">
-    <title>Products | Earn waste</title>
+    <title>Cards</title>
 </head>
 <body>
     <!-- the header start -->
@@ -20,7 +19,7 @@
   <div class="nav-container"> <!--this the main nav container that wrape all the elements in the navigation-->
     <nav class="navbar navbar-expand-lg bg-gray navbar-black">
       <div class="container">
-       <img src="/Identity/logo/real.png" alt="" class="navbar-brand logo"> <!--the logo here-->
+       <a href="./index.html"><img src="/Identity/logo/real.png" alt="" class="navbar-brand logo"></a> <!--the logo here-->
        <h1 class="navbar-brand brand-name">EARN WASTE</h1> <!--the site name-->
      
        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu"> <!--nav menu but this display only on smaller screen-->
@@ -33,7 +32,7 @@
                <a href="#" class="nav-link">Shedules</a>   <!--the navbar links-->
             </li>
             <li class="nav-item">
-             <a href="/product.html" class="nav-link">For Home</a>  <!--the navbar links-->
+             <a href="#" class="nav-link">For Home</a>  <!--the navbar links-->
           </li>
           <li class="nav-item">
            <a href="#" class="nav-link">About</a>  <!--the navbar links-->
@@ -57,27 +56,29 @@
 
         <!-- the order container elements -->
         <div class="ordre-container">
-           <div class="product-image">
-            <img src="./root/pages/images/cans.jpg" alt="">
-           </div>
-           <form action="" class="ordering-form">
-            <h1 class="close"><i class="bi-back"></i></h1>
-            <h2>Complete your order</h2>
-            <input type="text" name="user-name" placeholder="Full Name">
-            <input type="tel" name="user-tel" placeholder="Phone Number">
-            <input type="text" name="user-name" placeholder="Home Address">
+            <h2>Place Your Order For The <span class="product-name">House bin</span></h2>
+            <p>Please make sure to complete the form</p>
+            <form action="" class="form-order">
+                <label for="name">Enter Your Full Name:</label>
+                <input type="text" name="full-name">
+                <br>
+                <label for="name">Enter Your Address:</label>
+                <input type="text" name="full-name">
+                <br>
+                <label for="name">Enter Your Phone:</label>
+                <input type="text" name="full-name">
 
-            <label for="number">Quantity</label>
-            <input type="number" name="" id="" placeholder="1" max="5" min="1">
+                <div class="quantity">
+                    <label for="quantity">Total Quantity</label>
+                <input type="text" name="">
+                </div>
 
-            <label for="color">Color Type</label>
-            <input type="color" name="" id="">
-
-            <p><b>NOTE:</b> ipsum dolor sit amet consectetur adipisicing elit. Consequuntur at beatae rerum nulla labore suscipit, animi molestiae sapiente provident quos a illum repellendus ipsam, necessitatibus saepe error. Officia atque modi libero quisquam. Beatae laborum nams!</p>
-            <button class="send">Submit</button>
-           </form>
+                <button class="send">SEND</button>
+            </form>
+            <h5>NOTE: Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur corporis praesentium dolor, voluptates magnam, enim officiis quis porro blanditiis est sapiente reprehenderit exercitationem eaque! Facilis voluptas sit laboriosam nobis aperiam.</h5>
         </div>
 
+    </header>
     <!-- the header end -->
     <!-- the starting of the main section -->
     <main>
@@ -112,6 +113,7 @@
         </section>
         <!-- ending section for home product section -->
         <br>
+        <br>
            <!-- starting section for business product -->
            <section class="for_home">
             <div class="title_and_discreption">
@@ -141,6 +143,7 @@
               </div>
           </section>
           <!-- ending section for business product section -->
+          <br>
           <br>
              <!-- starting section for home product -->
         <section class="for_home">
@@ -241,6 +244,5 @@
     </footer>
 
     <script src="./root/pages/scripts/product.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
 </html>
